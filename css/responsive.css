@@ -1,0 +1,11 @@
+@media only screen and (max-width:1500px){
+    nav .sign-in-cart ul li p{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    /* main .option-sidebar{
+        margin: 0px;
+    } */
+}

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --main-bg-color: #f1f2f4;
+    --bg-color:#fff;
+    --main-font-family: 'Inter', sans-serif;
+    --inter-semi-bold: 600;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+nav {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65px;
+    width: 100vw;
+    background-color: var(--bg-color);
+}
+
+nav .logo {
+    margin: 0 1vw;
+}
+
+nav .search {
+    margin: 0px 10px;
+    margin-left: 1vw;
+    margin-right: 6vw;
+    display: flex;
+    align-items: center;
+}
+
+nav .search img {
+    height: 20px;
+    position: absolute;
+    margin: 0 6px;
+}
+
+nav .search input {
+    width: 35vw;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 40px;
+    background-color: #f0f5ff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+nav .search input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+nav .sign-in-cart {
+    width: 32vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .sign-in-cart ul {
+    list-style: none;
+    display: flex;
+}
+
+nav .sign-in-cart ul li {
+    margin: 0px 20px;
+    padding: 5px 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+nav .sign-in-cart ul li img {
+    height: 25px;
+    width: auto;
+    margin: 0 7px;
+}
+
+nav .sign-in-cart .sign-in-hover:hover {
+    border-radius: 5px;
+    background-color: #2a55e5;
+}
+
+nav .three-dot-logo {
+    margin: 0px 3vw;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+
+nav .three-dot-logo:hover {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+nav .three-dot-logo img {
+    height: 25px;
+    width: auto;
+}
+
+main .option-sidebar {
+    background-color: var(--bg-color);
+    width: 98vw;
+    height: 130px;
+    margin: 10px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+main .option-sidebar .options {
+    height: 130px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+main .option-sidebar .options .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 4px;
+}
+
+main .option-sidebar .options img {
+    height: 70px;
+}
+
+main .option-sidebar .options p {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--inter-semi-bold);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+main .banner {
+    width: 98vw;
+    height: 250px;
+    margin: 10px 15px;
+    background-color: var(--bg-color);
+}
+
+main .mobile-wrapper {
+    display: flex;
+    align-items: center;
+    width: 98vw;
+    margin: 10px 15px;
+}
+
+main .mobile-wrapper .mobile {
+    background-color: var(--bg-color);
+    width: 81vw;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+main .mobile-wrapper .best_mobile_text{
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--inter-semi-bold);
+    font-size: 20px;
+    position: absolute;
+    align-self: flex-start;
+    margin: 30px 10px;
+
+}
+
+main .mobile-wrapper .mobile .phone a{
+    text-decoration: none;
+    color: black;
+}
+
+
+main .mobile-wrapper .mobile .phone {
+    height: 260px;
+    width: 500px;
+    margin: 0px 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+    main .mobile-wrapper .mobile .phone img{
+    height: 200px;
+}
+
+main .mobile-wrapper .mobile .phone img:hover{
+    height: 205px;
+}
+
+main .mobile-wrapper .mobile .phone .p_text{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 2px 0;
+}
+
+main .mobile-wrapper .mobile .phone .phone_name{
+    margin-top: 15px;
+}
+
+main .mobile-wrapper .mobile .phone .price{
+    font-size: 13px;
+    font-weight: var(--inter-semi-bold);
+}
+
+main .mobile-wrapper .boat {
+    height: 350px;
+    width: 20vw;
+    margin: 0px 25px;
+}
+
+main .mobile-wrapper .boat img{
+    height: 357px;
+}
+
+footer .foot-wrapper{
+    position: relative;
+    top: 40px;
+    width: 100vw;
+    height: 350px;
+    background-color: #212121;
+}
